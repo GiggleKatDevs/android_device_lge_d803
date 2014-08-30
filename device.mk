@@ -28,6 +28,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
+# OTA ID
+PRODUCT_PROPERTY_OVERRIDES += \
+    otaupdater.otaid=liquidd803
+
 # NFC packages
 PRODUCT_PACKAGES += \
     nfc_nci.g2 \

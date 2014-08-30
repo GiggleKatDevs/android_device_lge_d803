@@ -17,6 +17,8 @@
 include device/lge/g2-common/BoardConfigCommon.mk
 
 TARGET_KERNEL_CONFIG := d803_defconfig
+TARGET_GCC_VERSION_ARM := 4.10-sm
+TARGET_GCC_VERSION_AND := 4.7-sm
 
 TARGET_OTA_ASSERT_DEVICE := d803,g2,galbi
 
