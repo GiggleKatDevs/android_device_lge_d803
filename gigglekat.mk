@@ -3,17 +3,17 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Inherit some common liquid stuff.
-$(call inherit-product, vendor/liquid/config/common_phone.mk)
+$(call inherit-product, vendor/gigglekat/config/common.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/gigglekat/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/d803/d803.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := d803
-PRODUCT_NAME := liquid_d803
+PRODUCT_NAME := gigglekat_d803
 PRODUCT_BRAND := LGE
 PRODUCT_MODEL := LG-D803
 PRODUCT_MANUFACTURER := lge
